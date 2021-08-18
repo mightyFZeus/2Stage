@@ -24,9 +24,10 @@ export default function App() {
           <p>Who is Bolarin Olabisi?
 
     I'm a Junior frontend web developer living in Ibadan, Nigeria who specializes in web development and open source. I am proficient in HTML and CSS and JavaScript including one of it's framework,REACT, and have built mutilpe simple projects with with these tools. Currently serving my country. In my spare time, I love contributing to Open Source Projects ,bulding projects, watching movies and football and I support MANCHESTER UNITED, GGMU!!!</p>
+        <h4>PERSONAL INFO</h4>
         <div className='personal'>
           <div>
-            <p>PERSONAL INFO</p>
+            
             <p>Adress: 123 lorem </p>
             <p>Email: bolarinolabisi36@gmail.com </p>
             <p>phone: 09015752977</p>
@@ -49,9 +50,10 @@ export default function App() {
     <Grid className={classes.test} item md={8} sm={12}>
         <Card>
           <CardContent>
+          <h4>PROFESSIONAL SKILLS</h4>
             <div className='prof'>
               <div>
-              <h4>PROFESSIONAL SKILLS</h4>
+              
               <p>
                 HTML
               <LinearProgress variant="determinate" value='90'  />
@@ -84,6 +86,57 @@ export default function App() {
         </Card>
     </Grid>
     </Grid>
+    <div className={classes.toolbar} />
+    <Grid container justifyContent='flex-end'>
+      <Grid item md={8} sm={12}>
+        <Card>
+          <CardContent>
+            <h4>Education</h4>
+        <div className='education-div'>
+          <div>
+            <p>University</p>
+            <p>University Of Abuja</p>
+            <p>Bsc Computer Science</p>
+          </div>
+          <div>
+            <p>SSCE</p>
+            <p>Oyun Baptist high school,ijagbo</p>
+            <p>Bsc Computer Science</p>
+          </div>
+        </div>
+          </CardContent>
+        </Card>
+      </Grid>
+    </Grid>
+      <div className={classes.toolbar} />
+      <Grid container justifyContent='flex-end'>
+        <Grid item md={8} sm={12}>
+          
+            <Card>
+            <h4>EXPERIENCE</h4>
+            
+              <CardContent>
+              <div>
+            <div>
+              <p>Intership @</p>
+              <p>1. ITMS(University of Abuja, Abuja), 2016-2018</p>
+              <p>2. HNGi8, 2021</p>
+            </div>
+            
+            </div>
+
+
+              </CardContent>
+            </Card>
+        </Grid>
+      </Grid>
+      <Grid>
+        <div>
+        <img />
+        <img />
+        <img />
+        </div>
+      </Grid>
     </div>
   );
 }
