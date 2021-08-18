@@ -2,17 +2,21 @@ import "./styles.css";
 import {Grid, LinearProgress, Card, CardContent, CardMedia} from '@material-ui/core'
 import me from './me2.png'
 import useStyles from './Styles'
+import DisplayName from './DisplayName'
 
 
 export default function App() {
   const classes = useStyles()
   return (
     <div className="App">
+    <DisplayName />
     <Grid container spacing={3}>
     <Grid item sm={12} md={4}>
       <Card>
         <CardContent>
          <img src={me} className='test' alt='profile-pic' />
+        <p>BOLARIN OLABISI</p>
+        <p>Frontend Dev</p>
         </CardContent>
       </Card>
     </Grid>
@@ -24,6 +28,7 @@ export default function App() {
           <p>Who is Bolarin Olabisi?
 
     I'm a Junior frontend web developer living in Ibadan, Nigeria who specializes in web development and open source. I am proficient in HTML and CSS and JavaScript including one of it's framework,REACT, and have built mutilpe simple projects with with these tools. Currently serving my country. In my spare time, I love contributing to Open Source Projects ,bulding projects, watching movies and football and I support MANCHESTER UNITED, GGMU!!!</p>
+        <hr />
         <h4>PERSONAL INFO</h4>
         <div className='personal'>
           <div>
