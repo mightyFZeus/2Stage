@@ -1,2 +1,2 @@
 # 2Stage
-Created with CodeSandbox
+the function that displays the name is found in DisplayName.js(in the src folder)
